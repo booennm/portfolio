@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(21, 43, 30);
+    padding-left: 2em;
+}
+
+h1 {
+    color: white;
+    width: 640px;
+    text-align: center;
+}
+
+div {
+    width: 320px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+div:nth-child(3) {
+    margin-left: 2.5em;
+}
+
+img {
+    display: block;
+}
+
+img:hover {
+    cursor: pointer;
+}
