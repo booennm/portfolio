@@ -17,26 +17,67 @@
     </div>
     
     <!-- Navbar by getbootstrap.com -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #090e18;">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav" style="background-color: #0E0E16;">
         <div class="container-fluid">
-            <a class="navbar-brand" id="title" href="#">Portfolio</a>
+            <a class="navbar-brand" id="title" href="index.html">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#">About me</a>
-                    <a class="nav-link" href="#">Traditional pieces</a>
-                    <a class="nav-link" href="#">Digital pieces</a>
-                    <a class="nav-link" href="#">Sculptures</a>
+                    <a class="nav-link" href="pages/about.html">About me</a>
+                    <a class="nav-link" href="pages/traditional.html">Traditional pieces</a>
+                    <a class="nav-link" href="pages/digital.html">Digital pieces</a>
+                    <a class="nav-link" href="pages/sculptures.html">Sculptures</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 my-auto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam temporibus eveniet quibusdam eaque quam, laborum voluptate totam iusto vitae. Debitis ipsum quod saepe autem cumque et voluptatum iure dolores.</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+                <h3 style="text-align: center; padding-bottom: 10px;">Highlighted works</h3>
+                <!-- Carousel by getbootstrap.com -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/placeholder1.jpg" class="d-block w-100" alt="" style="height: 250px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/placeholder2.jpg" class="d-block w-100" alt="" style="height: 250px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/placeholder3.JPG" class="d-block w-100" alt="" style="height: 250px; object-fit: cover;">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button> 
+                </div>
+                <p style="padding-top: 30px; text-align: center;">See the rest of my <a href="pages/traditional.html">traditional</a>, <a href="pages/digital.html">digital</a>, and <a href="pages/sculptures.html">sculptural</a> pieces.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer by MDBootstrap.com -->
-<footer class="text-center text-white fixed-bottom" style="background-color: #040508;">
+<footer class="text-center text-white fixed-bottom" style="background-color: #0E0E16;">
     <div class="container p-3">
+        <hr>
       <!-- Section: Social media -->
       <section class="mb-3">
         <!-- Instagram -->
@@ -56,7 +97,7 @@
       </section>
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #090e18;">
+    <div class="text-center">
       © 2021 Böök Enna-Liina
     </div>
     <!-- Copyright -->

@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    background-color: #090e18;
+    background-color: #0E0E16;
     color: white;
+    padding-bottom: 150px;
 }
 
 .titleimg {
@@ -31,13 +32,17 @@ body {
     left: 270px;
 }
 
+#nav {
+    padding-bottom: 150px;
+}
+
 #navbarNavAltMarkup>.navbar-nav a {
     color: white;
 }
 
 #navbarNavAltMarkup>.navbar-nav a:hover {
     background-color: white;
-    color: #090e18;
+    color: #040508;
 }
 
 #title {
@@ -46,4 +51,12 @@ body {
 
 #title:hover {
     color: #F68015; 
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #F68015;
 }
