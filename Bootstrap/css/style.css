@@ -1,0 +1,49 @@
+html {
+    font-size: large;
+}
+
+body {
+    background-color: #090e18;
+    color: white;
+}
+
+.titleimg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.titletxt {
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+}
+
+#navbarNavAltMarkup>.navbar-nav a {
+    color: white;
+}
+
+#navbarNavAltMarkup>.navbar-nav a:hover {
+    background-color: white;
+    color: #090e18;
+}
+
+#title {
+    padding-left: 15px;
+}
+
+#title:hover {
+    color: #F68015; 
+}
