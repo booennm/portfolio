@@ -12,7 +12,7 @@ function sendMessage(msg, encoder) {
     console.log(msg);
 }
 
-function myEncoder(msg) {
+const myEnc = function(msg) { //anonyymi-funktio jolla ei ole nimeä
     msg += "1234xcv";
 
     return msg;
