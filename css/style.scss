@@ -1,0 +1,98 @@
+$altColor: #A183AF;
+$highlightColor: #619887;
+
+@import "./accordion.scss";
+
+@mixin topLeft() {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+html {
+    font-size: large;
+    height: 100vh;
+}
+
+body {
+    background-color: #0E0E16;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: $altColor;
+}
+
+p {
+    text-indent: 70px;
+    line-height: 2;
+}
+
+.titleimg {
+    @include topLeft();
+}
+
+.img1 {
+    @include topLeft();
+    
+    width: 100%;
+    min-height: 196px;
+    object-fit: cover;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.titletxt {
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+}
+
+#nav {
+    margin-bottom: 100px;
+    background-image: url(../images/navbarimg.jpg);
+}
+
+#navbarNavAltMarkup>.navbar-nav a {
+    color: white;
+
+    &:hover {
+        background-color: $altColor;
+        color: #040508; 
+    }
+}
+
+#title {
+    padding-left: 15px;
+
+    &:hover {
+        color: $highlightColor;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: $highlightColor;
+    }
+}
+
+.caption p{
+    text-align: center;
+    text-indent: 0;
+    color: $altColor;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
